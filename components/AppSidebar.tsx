@@ -16,7 +16,11 @@ import Link from "next/link";
 const navItems = [
   {
     title: "Employees",
+<<<<<<< HEAD
     url: "/Employee",
+=======
+    url: "/employees",
+>>>>>>> parent of ec6dbfe (Updates on the UI)
     icon: Users,
   },
   {
@@ -31,11 +35,19 @@ const navItems = [
   },
   {
     title: "Settings",
+<<<<<<< HEAD
     url: "/Settings",
     icon: Settings,
   },
 ];
 import { logo } from "*.png"; // Adjust the path as necessary
+=======
+    url: "/settings",
+    icon: Settings,
+  },
+];
+import { logo } from "../public/logo.png"; // Adjust the path as necessary
+>>>>>>> parent of ec6dbfe (Updates on the UI)
 import Image from "next/image";
 
 const AppSidebar = () => {
